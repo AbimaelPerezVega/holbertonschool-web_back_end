@@ -1,4 +1,2 @@
-// delete all documents name=holberton
-db.school.deleteMany({
-    "name": "Holberton school"
-})
+// deleting all docs with a specific name
+db.school.deleteMany({ name: "Holberton school" })
